@@ -5,6 +5,8 @@ from decouple import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, 'subdir')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+APPS_DIR = os.path.join(BASE_DIR, 'apps') 
+sys.path.insert(0, APPS_DIR)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
@@ -16,12 +18,19 @@ ALLOWED_HOSTS = []
 
 # Application definition
 INSTALLED_APPS = [
+# Django Apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    # Third Party Apps
+    'rest_framework',
+
+    # Local Apps
+    'apps.categories',
 ]
 
 MIDDLEWARE = [
