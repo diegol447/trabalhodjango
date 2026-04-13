@@ -1,0 +1,12 @@
+meubangodjango_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gcd506676371c9f_meubangodjango_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+meubangodjango_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gcd506676371c9f_meubangodjango_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+meubangodjango_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gcd506676371c9f_meubangodjango_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+meubangodjango_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gcd506676371c9f_meubangodjango_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+meubangodjango_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=gcd506676371c9f_meubangodjango_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+

@@ -1,0 +1,5 @@
+/projeto_loja/__pycache__/*
+*.pyc
+.env
+/apps/categories/__pycache__/*
+/apps/categories/migrations/*
