@@ -30,7 +30,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # Local Apps
-    'apps.categories',
+    'apps.categories.apps.CategoriesConfig',
 ]
 
 MIDDLEWARE = [
